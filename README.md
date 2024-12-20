@@ -1,3 +1,5 @@
+# Forked simply for the purposes to quickfix an issue I had and to pin the version.
+
 # Pathfinder 2nd Edition - Roll Manager
 
 ![Image 1](https://imgur.com/rNW0p5x.png)
