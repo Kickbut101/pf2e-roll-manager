@@ -1730,8 +1730,8 @@ function removeElements() {
     }
 
     // Remove dark overlay
-    const darkOverlay = document.getElementById('dark-overlay');
-    fadeOutAndRemoveElement(darkOverlay, fadeOutDelay);
+    const darkOverlays = document.querySelectorAll('#dark-overlay');
+	darkOverlays.forEach(darkOverlay => fadeOutAndRemoveElement(darkOverlay, fadeOutDelay));
 
     // Remove roll text heading
     const heading = document.querySelector('#character-box-container h1');
